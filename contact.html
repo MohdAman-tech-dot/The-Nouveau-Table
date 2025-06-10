@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="images/The Nouveau Table-logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="M-logo">
+            <a href="index.html">
+                <img src="images/The Nouveau Table-logo.jpg" alt="">
+            </a>
+        </div>
+
+        <ul style="padding-right: 150px;">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menus.html">Our Menus</a>
+            </li>
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+
+            <button class="M-reservation" style="border: none;">
+                <a href="">Make a Reservation</a>
+            </button>
+        </ul>
+    </header>
+
+    <section id="M-contact">
+
+        <h1>Contact Us</h1>
+        <div class="M-contact-container">
+
+            <form>
+                <div class="service">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="service">
+                    <label for="Phone">Phone number:</label>
+                    <input type="number" id="Phone" name="Phone">
+                </div>
+
+                <label for="">Have you tested our dishes</label>
+                <div class="tasteOrNot" style="margin-bottom: 40px;">
+                    <div class="feedback">
+                        <div class="answer">
+                            <input type="radio" id="taste" name="taste">Yes
+                        </div>
+                        <div class="answer">
+                            <input type="radio" id="taste" name="taste">NO
+                        </div>
+                        <div class="answer">
+                            <input type="radio" id="taste" name="taste">Other
+                        </div>
+                    </div>
+                </div>
+
+                <label for="message">What can we do for you</label>
+                <div class="text-area">
+                    <textarea style="resize: none;" id="message" name="message" rows="3"></textarea>
+                </div>
+
+                <div class="submitbtn">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- KEEP UP TO DATE WITH US & SIGN UP SECTION -->
+    <section id="signUpContainer">
+        <div class="a-signup">
+            <div class="a-heading" style="width: 50%;">
+                <h1>Keep up to date with us</h1>
+                <p>Sign up to be the first to receive special news and event updates from us.</p>
+            </div>
+
+            <form action="" class="a-form" style="width: 50%;">
+                <input type="email" name="email" placeholder="Your email address" required="">
+                <button class="M-reservation" style="border: none;">
+                    <a href="">Sign up</a>
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footerContainer">
+            <div class="restraDetail">
+                <h1 style="color: #001921;">The Nouveau Table</h1>
+                <p class="">Lake House, 13 Hanway, <br>
+                    Square, London, UK</p>
+
+                <div class="social-links">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram" style="color: white; background-color:#001921"></i></a>
+                    <a href=""></a><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""></a><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- FOOTER MENU LINKS -->
+            <div class="menu-links" style="padding-top: 8px;">
+                <h2>Our Menus</h2>
+
+                <ul style="padding: 10px 0 0 18px;">
+                    <a href="menus.html#burgers">
+                        <li>Burgers</li>
+                    </a>
+                    <a href="menus.html#pizza">
+                        <li>Pizzas</li>
+                    </a>
+                    <a href="menus.html#americanFood-dessert">
+                        <li>American Food</li>
+                    </a>
+                    <a href="">
+                        <li>Salad</li>
+                    </a>
+                    <a href="menus.html#dessert">
+                        <li>Desserts</li>
+                    </a>
+                </ul>
+            </div>
+            <!-- USEFUL LINKS -->
+            <div class="menu-links" style="padding-top: 8px;">
+                <h2>Useful Links</h2>
+
+                <ul style="padding: 10px 0 0 18px;">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="menus.html">
+                        <li>Our Menu</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About Us</li>
+                    </a>
+                    <a href="index.html#blog-section">
+                        <li>Blogs</li>
+                    </a>
+                </ul>
+            </div>
+            <!-- CONTACT US -->
+            <div class="menu-links" style="padding-top: 8px;">
+                <h2>Contact Us</h2>
+
+                <ul style="padding: 10px 0 0 0; list-style: none;" class="contact">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="number">
+                            +91 98-8578-8577 <br>
+                            +91 87-8547-9614
+                        </div>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="mail">
+                            www.thenouveautable.com <br>
+                            info@thenouveautable.com
+                        </div>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
